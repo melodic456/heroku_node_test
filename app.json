@@ -1,0 +1,20 @@
+{
+  "name": "Your App Name",
+  "description": "A brief description of your app",
+  "repository": "https://github.com/melodic456/heroku_node_test",
+  "keywords": ["node", "worker", "heroku"],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
