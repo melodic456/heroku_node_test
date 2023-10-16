@@ -4,8 +4,7 @@
   "repository": "https://github.com/melodic456/heroku_node_test",
   "keywords": ["node", "express", "heroku"],
   "scripts": {
-    "start": "node server.js",
-    "postdeploy": "npm install"
+    "start": "node server.js"
   },
   "formation": {
     "web": {
