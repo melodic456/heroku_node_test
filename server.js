@@ -2,7 +2,7 @@ const api = require('@marcius-capital/binance-api');
 
 async function save_by_pair(item) {
     try {
-        await fetch('http://20.83.146.14/api/save', {
+        await fetch('https://evening-anchorage-45952-5e3412c973ed.herokuapp.com/api/save', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ setTimeout(() => {
 
 async function updateData(item) {
     try {
-        await fetch('http://20.83.146.14/api/update', {
+        await fetch('https://evening-anchorage-45952-5e3412c973ed.herokuapp.com/api/update', {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
